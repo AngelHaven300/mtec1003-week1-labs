@@ -375,6 +375,13 @@ Copy and paste the output into the space below.
 ----------
 
 
+Paulino@DESKTOP-O3INP3T MINGW64 ~
+$ cd /Volumes
+bash: cd: /Volumes: No such file or directory
+
+Paulino@DESKTOP-O3INP3T MINGW64 ~
+$ pwd
+/c/Users/Paulino
 
 
 
@@ -388,6 +395,13 @@ Copy and paste the output into the space below.
 ----------
 
 
+Paulino@DESKTOP-O3INP3T MINGW64 ~
+$ cd /Unknown_folder
+bash: cd: /Unknown_folder: No such file or directory
+
+Paulino@DESKTOP-O3INP3T MINGW64 ~
+$ pwd
+/c/Users/Paulino
 
 
 
@@ -401,6 +415,12 @@ Copy and paste the output into the space below.
 ----------
 
 
+Paulino@DESKTOP-O3INP3T MINGW64 ~
+$ cd ~/mtec1003
+
+Paulino@DESKTOP-O3INP3T MINGW64 ~/mtec1003
+$ pwd
+/c/Users/Paulino/mtec1003
 
 
 
@@ -413,6 +433,9 @@ Copy and paste the output into the space below.
 ----------
 
 
+Paulino@DESKTOP-O3INP3T MINGW64 ~/mtec1003
+$ hostname
+DESKTOP-O3INP3T
 
 
 
@@ -420,7 +443,10 @@ Copy and paste the output into the space below.
 28. Make sure you're back in your mtec1003, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
 
-
+The command you use would be $ pwd
+Paulino@DESKTOP-O3INP3T MINGW64 ~/mtec1003
+$ pwd
+/c/Users/Paulino/mtec1003
 
 
 ==========
@@ -449,6 +475,8 @@ Write the one command you used below:
 ----------
 
 
+Paulino@DESKTOP-O3INP3T MINGW64 ~/mtec1003
+$ mkdir -p pineapple/orange/strawberry/lemon
 
 
 
@@ -458,6 +486,7 @@ Write the one command you used below:
 Write the command you used to create the directory below:
 ----------
 
+$ mkdir -p aardvark
 
 
 
@@ -468,8 +497,17 @@ Write the command you used to create the directory below:
 What is the modified date of the aardvark directory?
 ----------
 
+Paulino@DESKTOP-O3INP3T MINGW64 ~/mtec1003
+$ ls -l
+total 0
+drwxr-xr-x 1 Paulino 197121 0 Sep  1 22:47 aardvark/
+drwxr-xr-x 1 Paulino 197121 0 Sep  1 22:14 foo/
+drwxr-xr-x 1 Paulino 197121 0 Sep  1 22:11 food/
+drwxr-xr-x 1 Paulino 197121 0 Sep  1 22:41 pineapple/
 
 
+the modified dat of aardvark is 
+drwxr-xr-x 1 Paulino 197121 0 Sep  1 22:47 aardvark/
 
 
 ==========
@@ -482,7 +520,14 @@ What is the modified date of the aardvark directory?
 What command did you use?
 ----------
 
+Paulino@DESKTOP-O3INP3T MINGW64 ~/mtec1003
+$ cd foo/
 
+Paulino@DESKTOP-O3INP3T MINGW64 ~/mtec1003/foo
+$ mkdir -p bar/ 
+
+Paulino@DESKTOP-O3INP3T MINGW64 ~/mtec1003/foo/bar
+$ mkdir -p baz/
 
 
 
@@ -493,7 +538,8 @@ What command did you use?
 ----------
 
 
-
+Paulino@DESKTOP-O3INP3T MINGW64 ~/mtec1003/foo/bar
+$ cd baz/
 
 
 ==========
@@ -503,6 +549,8 @@ What command did you use?
 ----------
 
 
+Paulino@DESKTOP-O3INP3T MINGW64 ~/mtec1003/foo/bar/baz
+$ cd ../..
 
 
 
@@ -511,7 +559,7 @@ What command did you use?
 ----------
 
 
-
+rmdir
 
 
 ==========
@@ -519,7 +567,7 @@ What command did you use?
 ----------
 
 
-
+pwd 
 
 
 ==========
@@ -527,7 +575,7 @@ What command did you use?
 ----------
 
 
-
+-l 
 
 
 ==========
@@ -535,7 +583,7 @@ What command did you use?
 ----------
 
 
-
+cd ~
 
 
 ==========
@@ -543,7 +591,7 @@ What command did you use?
 ----------
 
 
-
+A pathname is a string of directories that all leads back to a single root directory 
 
 
 ==========
@@ -551,7 +599,7 @@ What command did you use?
 ----------
 
 
-
+A directory is a folder that leads you to other folders
 
 
 ==========
