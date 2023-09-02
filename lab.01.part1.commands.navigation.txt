@@ -149,6 +149,7 @@ Follow the instructions line-by-line.
 12. Open a new terminal window. Create a directory called mtec1003. What command did you use?
 ----------
 
+$ mkdir mtec1003
 
 
 
@@ -157,7 +158,8 @@ Follow the instructions line-by-line.
 ----------
 
 
-
+$ cd mtec1003
+ 
 
 
 ==========
@@ -173,7 +175,8 @@ Copy and paste the output of pwd below.
 ----------
 
 
-
+/c/Users/Paulino/mtec1003
+(I changed to my windows cumputer hence paulino)
 
 
 ==========
@@ -185,6 +188,12 @@ $ ls
 Copy and paste the output below.
 ----------
 
+Paulino@DESKTOP-O3INP3T MINGW64 ~/mtec1003
+$ mkdir animals
+
+Paulino@DESKTOP-O3INP3T MINGW64 ~/mtec1003
+$ ls
+animals/
 
 
 
@@ -199,6 +208,12 @@ Copy and paste the output below.
 ----------
 
 
+Paulino@DESKTOP-O3INP3T MINGW64 ~/mtec1003
+$ mkdir food
+
+Paulino@DESKTOP-O3INP3T MINGW64 ~/mtec1003
+$ ls
+animals/  food/
 
 
 
