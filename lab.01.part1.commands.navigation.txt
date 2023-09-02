@@ -605,4 +605,4 @@ A directory is a folder that leads you to other folders
 ==========
 42. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
-
+ls Downloads
