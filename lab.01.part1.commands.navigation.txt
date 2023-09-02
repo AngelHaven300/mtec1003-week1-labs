@@ -226,7 +226,15 @@ $ ls
 Copy and paste the output below.
 ----------
 
-animals	foo	food
+
+Paulino@DESKTOP-O3INP3T MINGW64 ~/mtec1003
+$ mkdir -p foo/bar/baz/qux
+
+
+
+Paulino@DESKTOP-O3INP3T MINGW64 ~/mtec1003
+$ ls
+animals/  foo/  food/
 
 
 
@@ -242,6 +250,13 @@ Copy and paste the output below.
 
 
 
+Paulino@DESKTOP-O3INP3T MINGW64 ~/mtec1003
+$ cd foo/bar/baz/qux
+
+Paulino@DESKTOP-O3INP3T MINGW64 ~/mtec1003/foo/bar/baz/qux
+$ pwd
+/c/Users/Paulino/mtec1003/foo/bar/baz/qux
+
 
 
 ==========
@@ -254,6 +269,12 @@ Copy and paste the output below.
 ----------
 
 
+Paulino@DESKTOP-O3INP3T MINGW64 ~/mtec1003/foo/bar/baz/qux
+$ cd ../..
+
+Paulino@DESKTOP-O3INP3T MINGW64 ~/mtec1003/foo/bar
+$ pwd
+/c/Users/Paulino/mtec1003/foo/bar
 
 
 
@@ -267,6 +288,13 @@ Copy and paste the output below.
 ----------
 
 
+Paulino@DESKTOP-O3INP3T MINGW64 ~/mtec1003/foo/bar
+$ cd -
+/c/Users/Paulino/mtec1003/foo/bar/baz/qux
+
+Paulino@DESKTOP-O3INP3T MINGW64 ~/mtec1003/foo/bar/baz/qux
+$ pwd
+/c/Users/Paulino/mtec1003/foo/bar/baz/qux
 
 
 
@@ -280,6 +308,12 @@ Copy and paste the output below.
 ----------
 
 
+Paulino@DESKTOP-O3INP3T MINGW64 ~/mtec1003/foo/bar/baz/qux
+$ cd ../../../..
+
+Paulino@DESKTOP-O3INP3T MINGW64 ~/mtec1003
+$ pwd
+/c/Users/Paulino/mtec1003
 
 
 
@@ -294,6 +328,21 @@ Copy and paste the first 3 lines from the output into the space below.
 ----------
 
 
+Paulino@DESKTOP-O3INP3T MINGW64 ~/mtec1003
+$ ls -l
+total 0
+drwxr-xr-x 1 Paulino 197121 0 Sep  1 22:10 animals/
+drwxr-xr-x 1 Paulino 197121 0 Sep  1 22:14 foo/
+drwxr-xr-x 1 Paulino 197121 0 Sep  1 22:11 food/
+
+Paulino@DESKTOP-O3INP3T MINGW64 ~/mtec1003
+$ rmdir animals
+
+Paulino@DESKTOP-O3INP3T MINGW64 ~/mtec1003
+$ ls -l
+total 0
+drwxr-xr-x 1 Paulino 197121 0 Sep  1 22:14 foo/
+drwxr-xr-x 1 Paulino 197121 0 Sep  1 22:11 food/
 
 
 
@@ -307,6 +356,12 @@ Copy and paste the output into the space below.
 ----------
 
 
+Paulino@DESKTOP-O3INP3T MINGW64 ~/mtec1003
+$ cd ~
+
+Paulino@DESKTOP-O3INP3T MINGW64 ~
+$ pwd
+/c/Users/Paulino
 
 
 
